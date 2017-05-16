@@ -4,15 +4,151 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="assets/css/mootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="icon" href="assets/images/icon.png">
   <title>Lección 34 Componentes de Bootstrap</title>
 </head>
-<body>
+<body class="bg-gray-low">
+<div class="container">
+  <div class="row mt-62">
+    <div class="col-lg-6">
+      <div>
+        <img src="assets/images/celular.jpg" alt="samsung-galaxy-on5" class="img-responsive">
+      </div>
+    </div>
+    <div class="col-lg-6 bg-white padding-2-per">
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#home" data-toggle="tab">Detalle de productos</a></li>
+        <li><a href="#menu1" data-toggle="tab">Envío y Pago</a></li>
+        <li><a href="#menu2" data-toggle="tab">Garantías del vendedor</a></li>
+      </ul>
+      <div class="tab-content">
+        <div id = "home" class="tab-pane fade in active">
+          <h3>Especificacions del artículo</h3>
+          <ul class="list-unstyled">
+            <li><strong>Nombre de la marca:</strong>  SAMSUNG</li>
+            <li><strong>Desbloqueador de teléfonos:</strong>  Sí </li>
+            <li><strong>Google Play:</strong>  Sí</li>
+            <li><strong>Tipo de batería: </strong> No desmontable</li>
+            <li><strong>Fecha de lanzamiento: </strong> 2016</li>
+            <li><strong>Definición de grabación: </strong> 720P</li>
+            <li><strong>Funcionamiento del sistema: </strong> Android</li>
+            <li><strong>Fabricante del procesador: </strong>QUALCOMM</li>
+            <li><strong>Característica: </strong>Respuesta a la gravedad,Reproducción de MP3,GPRS,Pantalla táctil,Navegación GPS,Mensaje,Bluetooth,Reproductor de vídeo,Reproductor de video HD,WI-FI,Ranuras para tarjetas de memoria
+            </li>
+            <li><strong>Diseño:</strong>  Bar</li>
+            <li><strong>Idioma:</strong>  Rusa,Alemán,Francés,Español,Polaco,Portugués,Inglés</li>
+            <li><strong>UPC: </strong> De ocho núcleos</li>
+            <li><strong>Cámara: </strong> 13.0 MP</li>
+            <li><strong>Capacidad de la batería (mAh):</strong>  2600mAh</li>
+            <li><strong>Espesor: </strong> Ultra delgado (<9mm)</li>
+            <li><strong>Tipo de la cámara: </strong> Cámara delantera y trasera</li>
+            <li><strong>Cantidad de Tarjetas SIM:</strong>  Doble tarjeta Sim</li>
+            <li><strong>Resolución de la pantalla:</strong>  1280x720</li>
+            <li><strong>Tipo de Pantalla Táctil: </strong>Pantalla capacitiva</li>
+            <li><strong>Teléfono móvil: </strong>GSM / WCDMA / LTE</li>
+            <li><strong>Tiempo de Conversación: </strong>up to 5hours</li>
+            <li>32GB</li>
+            <li><strong>Condición del artículo:</strong> Nueva</li>
+            <li><strong>Modo de la venda: </strong>2SIM/Multi-Bands</li>
+            <li><strong>Tamaño:</strong> 142.8 x 69.5 x 8.1mm</li>
+            <li><strong>Color de visualización:</strong> Color</li>
+          </ul>
+        </div>
+        <div id = "menu1" class="tab-pane fade">
+          <h3>Envío y Pago</h3>
+          <table width = "100%" class="table">
+            <thead class="bg-gray-low">
+              <tr>
+                <th>Empresa de transportes</th>
+                <th>Gastos de envío</th>
+                <th>Tiempo de entrega estimado</th>
+                <th>Seguimiento</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>AliExpress Standard Shipping</td>
+                <td>US $13.47</td>
+                <td>43-59 días</td>
+                <td>Disponible</td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <h4 class="bold-600">Detalles del paquete</h4>
+          <ul class="list-unstyled">
+            <li>Tipo de unidad: Unidad</li>
+            <li>Dimensiones del paquete: 15cm x 10cm x 10cm (5.91in x 3.94in x 3.94in)</li>
+            <li>Peso del paquete: 0.5kg (1.10lb.)</li>
+          </ul>
+          <br>
+          <h4 class="bold-600">Pago</h4>
+          <span>Estos son los metodos de pago aceptados por AliExpress. Todos ellos son procesados
+                a través de nuestro socio: la plataforma de pago Alipay.</span>
+          <div>
+            <img src="assets/images/logos.png" alt="logos payment" class="img-responsive">
+          </div>
+        </div>
+        <div id = "menu2" class="tab-pane fade">
+          <table class="seller-detail-show">
+
+          </table>
+          <div>
+            <h3 class="bold-600">Protección de comprador</h3>
+            <table class="table-condensed">
+              <tbody>
+                <tr>
+                  <td class="">Política de devoluciones
+                  </td>
+                  <td class="">
+                    Si el producto que recibes es muy distinto
+                    de su descripción o de mala calidad, el vendedor se compromete
+                    a aceptar su devolución antes de que el pedido finalice
+                    (es decir, antes de hacer clic en "Confirmar el pedido" o
+                    mientras que no exceda el plazo de confirmación), y a devolverte
+                    íntegramente el dinero. Los gastos de envío para la devolución
+                    corren a tu cargo. Puedes optar por quedarte el producto y
+                    acordar la devolución del dinero directamente con el vendedor.
+                    long details
+                  </td>
+                </tr>
+                <tr>
+                  <td>Servicio del vendedor</td>
+                  <td>Entrega Puntual Si no recibes tu compra en 60 días, puedes
+                     solicitar la devolución íntegra del importe antes de que el
+                     pedido finalice (es decir, antes de hacer clic en «Confirmar
+                     el pedido» o mientras no se exceda el plazo de confirmación).
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <h3 class="bold-600">Protección del comprador</h3>
+            <p>Tu compra protegida desde el primer clic hata la entrega</p>
+            <h4><i class="bold-600">Devolución íntegra del dinero</i> si no recibes tu pedido</h4>
+            <p>
+              Recibirás un reembolso si tu compra no llega en el plazo de entrega prometido por el vendedor.
+            </p>
+            <h4>
+              <i class="bold-600">Reembolso íntegro o parcial</i>  si el artículo es distinto de su descripción
+            </h4>
+            <p>
+              Puedes recibir la devolución íntegra de tu dinero si el producto es muy distinto de su descripción ,o , Puedes quedarte el producto y aceptar una devolución parcial del dinero.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap.min.js">
+</script>
+<script type="text/javascript" src = "assets/js/app.js">
+
 </script>
 </body>
 </html>
